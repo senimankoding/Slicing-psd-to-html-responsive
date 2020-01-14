@@ -1,0 +1,843 @@
+/*Reset Browser*/
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: Myriad Pro;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*End Reset Browser*/
+
+
+/*========================*/
+/*Navbar*/
+/*========================*/
+#navbar-top .navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+    min-height: 90px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}	
+	
+
+	#navbar-top .navbar-nav>li>a {
+    	padding-top: 35px !important;
+    	font-size: 18px;
+    	color: #fff;
+    	font-weight: 550;
+	} 
+	#navbar-top .navbar-nav>li>a:hover {
+		color: #87d37c;
+		transition: 1s;
+	}
+
+	.navbar-avtive {
+	    padding-top: 35px !important;
+    	font-size: 18px;
+    	color: #fff;
+    	font-weight: 550;
+	}
+
+	/* Style the active class, and buttons on mouse-over */
+	.active, 
+	.navbar-avtive:hover {
+	    color: #87d37c !important;
+	}
+
+
+	.navbar-top {
+		background: transparent;
+	}
+	.navbar-top-logo {
+		margin-top: -6px;
+		height: 70px;
+	}
+
+	.secondary {
+	    /*z-index: 1000;*/
+	    background: rgba(67, 52, 108, 0.5);  
+	}
+
+/*End navbar*/
+
+
+/*Header*/
+#header-top {
+	background: url(../img/header.jpg) no-repeat center;
+	background-size: cover;
+	padding-bottom: 70px;
+	height: auto;
+}
+	.header-top-carausel {
+		padding-top: 25%;
+	}
+	.header-top-carausel-judul p {
+		font-family: Roboto;
+		font-size: 40px;
+		font-weight: bold;
+		color: #fff;
+	}
+	.header-top-carausel-penjelasan {
+		border: 1px solid #fff;
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 14px;
+	}
+	.header-top-carausel-penjelasan p{
+		font-family: Roboto;
+		font-size: 100px;
+		font-weight: bold;
+		color: #fff;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.header-top-carausel-penjelasan span {
+		color: #87d37c;
+	}
+	.header-top-carausel-job p {
+		color: #fff;
+		font-size: 36px;
+		padding-bottom: 30px;
+	}
+
+
+	.header-top-carausel .owl-carousel .owl-item img {
+	    max-width: auto;
+	    margin: 0 auto;
+	}
+	.header-top-carausel .owl-prev,
+	.header-top-carausel .owl-next {
+	    opacity: 1;
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    margin: 0!important;
+	    width: 30px;
+	    height: 30px;
+	    line-height: 113px;
+	    font-size: 16px!important;
+	    text-align: center;
+	    color: transparent !important;
+	    z-index: 6;
+	    cursor: pointer;
+	    height: 120px;
+	    background: transparent !important;
+	}
+
+	.header-top-carausel .owl-prev {
+	    left: 0px;
+	    display: none;
+	}
+
+	.header-top-carausel .owl-next {
+	    right: 0;
+	}
+
+	.header-top-carausel .owl-carousel .owl-item .owl-nav img {
+	    display: none;
+	}
+
+	.header-top-carausel .owl-carousel:hover .owl-prev {
+	    left: 0;
+	}
+
+	.header-top-carausel .owl-carousel:hover .owl-next {
+	    right: 0;
+	}
+
+	.header-top-carausel .owl-prev::before,
+	.header-top-carausel .owl-next::before {
+	    display: block;
+	}
+
+	.owl-theme .owl-nav {
+	    margin-top: 0;
+	}
+
+	.header-top-carausel .owl-theme .owl-nav [class*="owl-"] {
+	    background: #ffce5a;
+	}
+
+	.header-top-carausel .owl-nav .icon-chevron-left,
+	.header-top-carausel .owl-nav .icon-chevron-right {
+	    color: #c0bfc0!important;
+	}
+
+	.header-top-carausel .owl-nav .icon-chevron-left {
+	    color: #c0bfc0!important;
+	}
+
+	.header-top-carausel .owl-nav .icon-chevron-left:hover,
+	.header-top-carausel .owl-nav .icon-chevron-right:hover {
+	    color: #ffb300!important;
+	}
+/*End Heafer*/
+
+
+
+/*About*/
+#about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	.about-judul {
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+	}
+	.about-penjelasan p {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 60px;
+		line-height: 1.4;
+		font-size: 18px;
+	}
+	.about-services-icon i{
+		font-size: 60px;
+		padding-bottom: 30px;
+	}
+	.about-services-icon:hover {
+		color: #87d37c;
+		transition: 1s;
+		cursor: pointer;
+	}
+	.about-services-judul {
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+	}
+	.about-services-penjelasan p {
+		font-size: 14px;
+		text-align: justify;
+		line-height: 1.4;
+	}
+/*End About*/
+
+
+/*Services*/
+#services {
+	background: #e1e1e1;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+	.services-judul {
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+	}
+	.services-penjelasan p {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 60px;
+		line-height: 1.4;
+		font-size: 18px;
+	}
+	.services-img-url {
+		padding-bottom: 100px;
+	}
+	.services-img-url-link  {
+		border: 1px solid #fff;
+		background: transparent;
+    	border-radius: 50%;
+    	height: 50px;
+    	width: 50px;
+    	display: inline-flex;
+    	margin-top: 40%;
+	}
+	.services-img-url-link .fa {
+		padding-top: 15px;
+		padding-left: 15px;
+		color: #fff;
+	}
+	.services-img-url-link:hover {
+		background: #87d37c;
+		border-color: #87d37c;
+	}
+	.img-url {
+		width: 260px;
+	}
+	.services-img-url-link-utama {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: all .5s ease-in-out;
+		background: url(../img/services-1.png);
+		box-sizing: border-box;
+		color: #fff;
+		line-height: 22px;
+		transform: scale(0);
+		transition-delay: .2s;
+		opacity: 0;
+
+		top: 0px;
+		bottom: 0px;
+		left: 15px;
+		right: 15px;
+	}
+	.services-img-url-1:hover .services-img-url-link-utama  {
+		opacity: 1;
+		transform: scale(1);
+		transition: 2s;
+	}
+/*End Services*/
+
+
+/*Portofolio*/
+#portofolio {
+	padding-top: 100px;
+}
+	.portofolio-judul {
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+	}
+	.portofolio-penjelasan p {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		line-height: 1.4;
+		font-size: 18px;
+	}	
+	.portofolio-filter .btn {
+		margin-right: 10px;
+	}
+	.filter-button {
+		font-size: 14px;
+		text-align: center;
+		color: #fdfdfe;
+		margin-bottom: 28px;
+	}
+	.filter-button:hover {
+		color: #fff;
+		background-color: #2c2b2b;
+	}
+	.btn-default {
+		background-color: #010101;
+		color: #fdfdfe !important;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 10px 30px;
+	}
+	.btn-default:hover {
+		background-color: #87d37c !important;
+		color: #fdfdfe !important;
+		font-weight: bold;
+		font-size: 14px;
+		border-color: transparent;
+	}
+	.btn-default:focus {
+		background-color: #87d37c !important;
+		color: #fdfdfe !important;
+	}
+	.gallery {
+		font-size: 36px;
+		color: #2c2b2b;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+	.gallery:after {
+		content: "";
+		position: absolute;
+		width: 7.5%;
+		height: 45px;
+		left: 46.5%;
+	}
+	.gallery_product {
+		margin-right: -13px;
+		margin-top: 28px;
+	}
+	.btn {
+		border-radius: 0px !important;
+		margin-right: 0px;
+	}
+	.portofolio-img-url-link  {
+    	margin-top: 50%;
+	}
+	.portofolio-img-url-link p {
+		text-transform: uppercase;
+		font-size: 30px;
+		color: #87d37c;
+		font-weight: bold;
+	}
+	.portofolio-img-url-link-utama {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: all .5s ease-in-out;
+		background: url(../img/services-2.png);
+		box-sizing: border-box;
+		margin-left: 15px;
+		/*width: 100%;
+		height: 100%;*/
+		color: #fff;
+		line-height: 22px;
+		transform: scale(0);
+		transition-delay: .2s;
+		opacity: 0;
+		right: 15px;
+		bottom: 0px;
+	}
+	.gallery_product:hover .portofolio-img-url-link-utama  {
+		opacity: 1;
+		transform: scale(1);
+		transition: 2s;
+	}
+
+
+	.active_1, 
+	.portofolio_active:hover {
+	    background: #87d37c !important;
+	    color: #fff !important;
+	}
+/*End Portofolio*/
+
+
+/*Our Pricing*/
+#our_pricing {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	.our_pricing-judul {
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+	}
+	.our_pricing-penjelasan p {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		line-height: 1.4;
+		font-size: 18px;
+		padding-bottom: 60px;
+	}	
+
+	.our_pricing_order-1 {
+		background: #39393a;
+		color: #f9f8fc;
+		border-radius: 5px;
+		padding-top: 30px;
+		padding-bottom: 300px;
+	}
+	.our_pricing_order-1-circle {
+		border: 4px solid #fff;
+    	border-radius: 50%;
+    	height: 120px;
+    	width: 120px;
+	}
+	.top-pricing {
+		padding-top: 30px;
+	}
+	.our_pricing_dolar {
+		font-size: 14px;
+		position: absolute;
+	}
+	.our_pricing_angka {
+		font-weight: bold;
+		font-size: 30px;
+		letter-spacing: -1px;
+		padding-left: 15px;
+	}
+	.top-pricing-penjelasan {
+		text-align: center;
+		font-family: Lato;
+		font-weight: 300;
+		padding-top: 30px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.hr-pricing {
+		margin-top: -2px;
+		color: #fff !important;
+	}
+	.top-pricing-penjelasan-2 {
+		text-align: center;
+		font-family: Lato;
+		font-weight: 300;
+		padding-top: 10px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.btn-cta-pricing {
+		padding-top: 25px;
+	}
+	.cta-pricing {
+		font-size: 14px;
+		color: #39393a;
+		background: #fff;
+		padding: 10px 20px;
+	}
+	.cta-pricing:hover {
+		text-decoration: none;
+		color: #39393a;
+	}
+
+	.our_pricing_order-1:hover {
+		background: #87d37c;
+		transition: 1s;
+	}
+	.our_pricing_order-1:hover .our_pricing_order-1-circle {
+		background: #fff;
+		color: #87d37c;
+	}
+/*End Pricing*/
+
+
+/*Counter*/
+#counter {
+	background: url(../img/bg-tengah.jpg) no-repeat center;
+	background-size: cover;
+	height: auto;
+}
+	.counter-angka {
+		color: #fff;
+		font-family: Myriad Arabic;
+		font-size: 72px;
+		padding-top: 100px;
+		font-weight: bold;
+	}
+	.counter-text {
+		font-weight: bold;
+		font-size: 18px;
+		color: #fff;
+		padding-bottom: 100px;
+	}
+/*End Counter*/
+
+
+/*Contact*/
+#contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	.contact-judul {
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+	}
+	.contact-penjelasan p {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 60px;
+		line-height: 1.4;
+		font-size: 18px;
+	}
+	.contact-services-icon i{
+		font-size: 60px;
+		padding-bottom: 30px;
+	}
+	.contact-services-icon:hover {
+		color: #87d37c;
+		transition: 1s;
+		cursor: pointer;
+	}
+	.contact-services-judul {
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+	}
+	.contact-services-penjelasan p {
+		font-size: 14px;
+		text-align: center;
+		line-height: 1.4;
+	}
+/*End About*/
+
+
+/*Form Contact*/
+#form-contact {
+	background: #f5f5f5;
+	padding-top: 100px;
+	padding-bottom: 30PX;
+}
+	#form-contact .form-control {
+		margin-bottom: 20px;
+	}
+	#form-contact input, 
+				textarea {
+		font-style: italic;
+	}
+	.btn-block {
+		background: #87d37c;
+		border-color: transparent;
+	}
+/*End Form Contact*/
+
+
+/*Footer*/
+#footer {
+	background: #000101;
+}
+	.footer-text p {
+		color: #fff;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-social-media {
+		float: right;
+	}
+	.footer-social-media ul li {
+		display: inline-flex;
+		padding-top: 30px;
+		padding-right: 13px;
+		font-size: 20px;
+	}
+	.footer-social-media .fa {
+		color: #fff;
+	}
+	.footer-social-media .fa:hover {
+		color: #87d37c;
+		transition: 1s;
+	}
+/*End Footer*/
+
+
+
+/*View Mobile*/
+@media (max-width: 700px) {
+	#navbar-top .navbar {
+		min-height: 50px !important;
+	}
+	#navbar-top .navbar-nav>li>a {
+    	padding-top: 15px !important;
+    	font-size: 15px;
+    }
+	#navbar-top .navbar-default {
+		background: rgba(67, 52, 108, 0.5);   !important;
+	}
+	.navbar-top-logo {
+		height: 30px !important;
+	}
+
+
+	/*Header*/
+	.header-top-carausel {
+	    padding-top: 35% !important;
+	}
+	.header-top-carausel-judul p {
+    	font-size: 20px !important;
+    }
+    .header-top-carausel-penjelasan p {
+    	font-size: 50px !important;
+    }
+	.header-top-carausel-job p {
+	    font-size: 20px !important;
+	}
+	/*End Header*/
+
+
+	/*About*/
+	.about-services-penjelasan p {
+	    padding-bottom: 50px !important;
+	}
+	/*End About*/
+
+
+	/*Services*/
+	.services-img-url-link-utama {
+		bottom: 40px !important;
+	}
+	.services-img-url-1 {
+		padding-bottom: 40px !important;
+	}
+	/*End Services*/
+
+
+	/*Pricing*/
+	.our_pricing_order-1  {
+		margin-bottom: 50px !important;
+	}
+	/*End Pricing*/
+
+
+	/*Counter*/
+	.counter-angka {
+    	padding-top: 40px !important;
+    }
+	/*End Counter*/
+
+
+	/*Contact*/ 
+	.contact-services-penjelasan p {
+	    padding-bottom: 50px !important;
+	}
+	/*End Contact*/
+
+
+	/*Footer*/
+	.footer-text p {
+		text-align: center !important;
+		padding-bottom: 0px !important;
+	}
+	.footer-social-media {
+		float: none !important;
+		padding-bottom: 30px !important;
+	}
+
+	/*End Footer*/
+}
+
+@media (min-width: 765px) and (max-width: 770px) {
+	#navbar-top .navbar {
+	    border-radius: 0px !important;
+	}
+	#navbar-top .navbar-nav>li>a {
+    	padding-top: 30px !important;
+    	font-size: 14px !important;
+	}
+	.navbar-top-logo {
+	    height: 40px !important;
+	}
+	.about-services-penjelasan p {
+	    text-align: center !important;
+	    padding-bottom: 50px !important;
+	}
+	.services-img-url-1 {
+		padding-bottom: 30px !important;
+	}
+	.services-img-url-link-utama {
+		bottom: 30px !important;
+	}
+	.our_pricing_order-1 {
+		margin-bottom: 40px !important;
+	}
+	.counter-text {
+		padding-bottom: 50px !important;
+	}
+	.counter-angka {
+		padding-top: 50px !important;
+	}
+	.contact-services-penjelasan p {
+		padding-bottom: 50px !important;
+	}
+	.footer-text p {
+	    padding-bottom: 0px !important; 
+	    text-align: center !important;
+	}
+	.footer-social-media {
+		float: none !important;
+		padding-bottom: 30px !important;
+		padding-top: 5px !important;
+	}
+}
+
+@media (min-width: 1020px) and (max-width: 1030px) {
+	.navbar-top-logo {
+		height: 50px !important;
+	}
+	.our_pricing_order-1 {
+		padding-bottom: 330px !important;
+	}
+	.cta-pricing {
+		padding: 10px 10px !important;
+	}
+	.footer-text p {
+		text-align: center !important;
+	}
+}
